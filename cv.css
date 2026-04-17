@@ -1,0 +1,100 @@
+body { 
+    margin: 0; 
+    font-family: 'Poppins', sans-serif; background: #eee; 
+} 
+
+nav {
+  background-color: #3b7947;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #22671a;
+}
+
+.cv-container { 
+    display: flex; 
+    width: 100%; 
+    max-width: 900px; 
+    margin: auto; background: white; 
+    border-radius: 15px; overflow: hidden; 
+} 
+
+.left { 
+    background: #fa2a1b; 
+    color: white; width: 35%; 
+    padding: 20px; text-align: center; 
+} 
+
+.profile { 
+    width: 100px; 
+    height: 120px; 
+    border-radius: 30%; 
+    margin-bottom: 10px; 
+} 
+
+.role { 
+    font-size: 14px; 
+    margin-bottom: 20px; 
+} 
+
+.left .section { 
+    text-align: left; 
+    margin-top: 20px; 
+}
+
+.right {
+    width: 65%;
+    padding: 20px;
+    color: black;
+}
+
+.section { 
+    margin-bottom: 20px; 
+} 
+
+h3 { 
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 5px; 
+}
+
+.gallery {
+    max-width: 900px;
+    margin: 40px auto;
+    color: rgb(0, 0, 0);
+}
+
+.gallery h2 {
+    margin-bottom: 15px;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sehat Itu Mudah</title>
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+<nav>
+  <a href="blog.html">Home</a>
+  <a href="contact.html">Contact</a>
+  <a href="cv.html">My CV</a>
+</nav>
+  
+<header>
+  <h1>🌿 Sehat Itu Mudah</h1>
+  <p>Informasi kesehatan sederhana sehari-hari</p>
+</header>
+
+<div class="container">
+
+  <div class="search">
+    <input type="text" id="searchInput" placeholder="Cari artikel..." onkeyup="searchArticle()">
+  </div>
+
+  <div class="card" onclick="toggleContent(this)">
+    <h3>💧 Manfaat Minum Air Putih</h3>
+    <div class="content">
+      <p>Menjaga tubuh tetap terhidrasi, membantu metabolisme, dan dianjurkan minum 8 gelas sehari.</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleContent(this)">
+    <h3>😴 Bahaya Begadang</h3>
+    <div class="content">
+      <p>Begadang dapat menurunkan konsentrasi, membuat tubuh lelah, dan berdampak buruk bagi kesehatan.</p>
+      <p>Instrumen ini bisa membuat Anda lebih relax, dengar ini sebelum tidur!</p>
+      <audio controls>
+        <source src="10 minutes. The Little Power Nap Series. Sleep and Relaxation Music 3 48KBPS.mp4" type="audio/mpeg">
+        Browser kamu tidak mendukung audio.
+      </audio>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleContent(this)">
+    <h3>🥦 Pentingnya Makan Sayur</h3>
+    <div class="content">
+      <p>Sayur mengandung vitamin dan mineral penting untuk menjaga daya tahan tubuh.</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleContent(this)">
+    <h3>🚶 Manfaat Olahraga Ringan</h3>
+    <div class="content">
+      <p>Olahraga ringan membantu menjaga kebugaran dan meningkatkan energi.</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleContent(this)">
+    <h3>📱 Dampak Terlalu Lama Main HP</h3>
+    <div class="content">
+      <p>Terlalu lama melihat layar dapat menyebabkan mata lelah dan gangguan tidur.</p>
+    </div>
+  </div>
+
+  <center>
+    <button onclick="randomTips()">💡 Tips Sehat Hari Ini</button>
+    <div id="tips"></div>
+  </center>
+
+</div>
+
+<footer>
+  <p>© 2026 Blog Kesehatan</p>
+</footer>
+
+<script src="blog.js"></script>
+</body>
+</html>

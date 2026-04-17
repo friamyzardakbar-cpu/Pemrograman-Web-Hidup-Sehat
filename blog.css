@@ -1,0 +1,92 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4fff4;
+}
+
+header {
+  background: rgb(171, 240, 171);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  background: #3b7947;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.content {
+  display: none;
+}
+
+button {
+  padding: 10px;
+}
+
+contact-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact-card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-card h2,
+.contact-card h3 {
+  margin-top: 0;
+}
+
+.contact-card input,
+.contact-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: Arial;
+}
+
+.contact-card textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-card button {
+  width: 100%;
+  background: #3b7947;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-card button:hover {
+  background: #2f6138;
+}
+
